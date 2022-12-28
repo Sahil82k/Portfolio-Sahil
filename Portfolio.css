@@ -12,7 +12,6 @@ body{
 }
 
 .header{
-   /* color: white;*/
     font-size: 8rem;
     padding: 1rem;
 }
@@ -54,6 +53,12 @@ span{
     background-color: #54B435;
     font-size: 3.6rem;
     padding: 1rem;
-    border-radius: 15px;
+    border-radius: 10px/20px;
     transition: ease-in-out 0.15s;
+  }
+
+  .body{
+    color:  rgb(242, 234, 219);
+    background-color: #54B435;
+    height: 50rem;
   }
