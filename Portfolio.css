@@ -37,6 +37,13 @@ body{
     justify-content: space-between;
 }
 
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .list a{
     color: #54B435;
     text-decoration: none;
@@ -57,8 +64,43 @@ span{
     transition: ease-in-out 0.15s;
   }
 
-  .body{
+  .main{
     color:  rgb(242, 234, 219);
     background-color: #54B435;
     height: 50rem;
+    font-size: 2rem;
+    padding: 1rem 5rem;
+    min-height: 450px
+  }
+
+  .left-main{
+    max-width: 80rem;
+    padding-left: 2rem;
+  }
+
+  .h-main{
+    font-size: 4rem;
+    max-width: 36rem;
+  }
+
+  .hor-bar {
+    width: 150px;
+    background-color: rgb(242, 234, 219);
+    height: 3px;
+  }
+
+  .p-main{
+    margin-top: 0.5rem;
+    font-size: 2.5rem;
+    max-width: 60rem;
+  }
+
+  .image{
+    background-image: url('./w.jpeg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:60% 0%;
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
   }
