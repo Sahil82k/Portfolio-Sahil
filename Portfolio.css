@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Itim");
+@import url("https://fonts.googleapis.com/css?family=Josefin Sans");
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-size: 62.5%;
-  font-family: "Roboto", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 body{
@@ -18,11 +20,14 @@ body{
 
 .aleft{
     align-items: left;
+    font-family: "Itim", monospace;
+    font-size: 5rem;
+    color: #ff6362;
 }
 
 .container{
     margin: 0 auto;
-    max-width: 150rem;
+    max-width: 155rem;
     height: 5rem;
 }
 
@@ -45,32 +50,33 @@ body{
 }
 
 .list a{
-    color: #54B435;
+    color: #ff6362;
     text-decoration: none;
     font-size: 3rem;
     margin: 1rem;
 }
 
 span{
-    color: #54B435;
+    color: #ff6362;
 }
 
 .list a:hover {
     color:  rgb(242, 234, 219);
-    background-color: #54B435;
-    font-size: 3.6rem;
+    background-color: #ff6362;
+    font-size: 3rem;
     padding: 1rem;
-    border-radius: 10px/20px;
+    border-radius: 15px;
     transition: ease-in-out 0.15s;
   }
 
   .main{
     color:  rgb(242, 234, 219);
-    background-color: #54B435;
+    background-color: #ff6362;
     height: 50rem;
     font-size: 2rem;
     padding: 1rem 5rem;
-    min-height: 450px
+    max-width: 155rem;
+    margin: 0 auto;
   }
 
   .left-main{
@@ -80,27 +86,54 @@ span{
 
   .h-main{
     font-size: 4rem;
-    max-width: 36rem;
+    max-width: 40rem;
+    margin-bottom: 1rem;
   }
 
   .hor-bar {
-    width: 150px;
+    width: 180px;
     background-color: rgb(242, 234, 219);
     height: 3px;
   }
 
   .p-main{
-    margin-top: 0.5rem;
-    font-size: 2.5rem;
+    margin-top: 2rem;
+    font-size: 3rem;
     max-width: 60rem;
   }
 
   .image{
     background-image: url('./w.jpeg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position:60% 0%;
+    background-size: 140%;
+    background-position:50% 10%;
     width: 400px;
     height: 400px;
     border-radius: 100%;
+  }
+
+  .secr{
+    height: 50rem;
+    padding: 1rem 5rem;
+    max-width: 155rem;
+    margin: 0 auto;
+    font-size: 10rem;
+  }
+
+  .r1{
+    border-radius: 15px;
+    border-color: #ff6362;
+    box-shadow: #ff6362;
+    border-width: 4rem;
+    width: 40%;
+    text-align: center;
+  }
+
+  .r11{
+    background-color: #ff6362;
+    color: rgb(242, 234, 219);
+  }
+
+  .r12{
+    color: #ff6362;
   }
